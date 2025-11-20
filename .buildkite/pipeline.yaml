@@ -1,0 +1,8 @@
+steps:
+  - label: "Hello from Buildkite"
+    commands:
+      - echo "Testing Buildkite Pipeline "Triggered by GHE event"
+      - echo "Branch: $BUILDKITE_BRANCH"
+      - echo "Commit: $BUILDKITE_COMMIT"
+      - echo "Message: $BUILDKITE_MESSAGE"
+      - echo "Triggered by: $BUILDKITE_BUILD_CREATOR"
